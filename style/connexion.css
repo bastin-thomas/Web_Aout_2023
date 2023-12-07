@@ -1,0 +1,56 @@
+main div h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control{
+    background-color: rgba(51, 51, 51, 0.25);
+}
+
+.form-control:hover{
+    background-color: rgba(51, 51, 51, 0.20);
+}
+
+#LoginForm{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#DisconnectButton{
+    margin: 0px;
+    text-align: center;
+}
+
+#message{
+    text-align: center;
+}
+
+#LoginButton{
+    margin-top: 5%;
+}
+
+.btn-group .btn-primary.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+.btn-group .btn-primary {
+    background-color: #fff;
+    color: #007bff;
+    border-color: #007bff;
+}
+.btn-group .btn-primary:not(.active):hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.LoginLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 100%;
+    width: 100%;
+}

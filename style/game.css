@@ -1,0 +1,129 @@
+.params {
+    display: flex;
+    flex-flow: row, nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 20%;
+}
+
+#numberInput{
+    width: 75px;
+}
+
+.Gamelayout{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.upperlayout{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.upperlayout .currentScore{
+    width: 20%;
+}
+
+.upperlayout .currentScore h2{
+    width: 100%;
+}
+
+.gameZone{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 100%;
+}
+
+.choiceSelection{
+    padding: 5px;
+
+    width: 20%;
+    height: calc(100% - 35px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-between;
+    background-color: rgba(15,15,15,0.25);
+    border-color: green;
+    border-style: dotted;
+    border-width: 3px;
+}
+
+.Item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 50px;
+    width:  50px;
+    text-align: center;
+    background-color: rgba(15,15,15,0.5);
+    
+    border-style:solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+
+
+
+
+
+
+#equations{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 80%;
+    height: calc(100% - 35px);
+}
+
+.equation div{
+    height: 60px;
+    width:  60px;
+    font-size: xx-large;
+
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.equation div input{
+    height: 100%;
+    width: 100%;
+}
+
+.equation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40%;
+}
+
+.CalcInput{
+    height: 40px;
+    width:  40px;
+}
+
+input[type=text]{
+    text-align: center; 
+  }

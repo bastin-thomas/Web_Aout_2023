@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="./style/connexion.css">
+        <link rel="stylesheet" href="./style/game.css">
+        <link rel="stylesheet" href="./style/main.css">
+        <link rel="stylesheet" href="./style/popup.css">
+
+        <script src="./API/libApiClient.js"></script>
+        
+        <script src="./Model/GlobalVariable.js"></script>
+        
+        <script src="./Model/UtilityLib.js"></script>
+        <script src="./Model/GamePlayLib.js"></script>
+
+        <script src="./Controler/LoginControler.js"></script>
+        <script src="./Controler/GameConfiguration.js"></script>
+
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculotron</title>
+    </head>
+
+    <body>
+        <header>
+            <img src="./assets/logo.png" alt="Logo du site">
+            <h1>Calculotron</h1>
+        </header>
+
+        <div id="popupContainer" class="popupContainer">
+            <div class="popupContent">
+                <h2>Fin de la partie</h2>
+                <div class="currentScore" >
+                    <p>Votre Score: </p>
+                </div>
+              <button id="closePopupBtn" class="closePopupBtn btn btn-secondary">Fermer</button>
+            </div>
+        </div>
+
+        <div id="popupContainer2" class="popupContainer">
+            <div class="popupContent">
+                <h2>HighScores</h2>
+                <div class="scoreBillboard">
+                    <p>Joueur 1: </p>
+                    <p>Joueur 2: </p>
+                    <p>Joueur 3: </p>
+                    <p>Joueur 4: </p>
+                    <p>Joueur 5: </p>
+                </div>
+              <button id="closePopupBtn2" class="closePopupBtn btn btn-secondary">Fermer</button>
+            </div>
+        </div>
+        
+        <main class="container-fluid">
+        </main>
+
+        <footer>
+            <p>&copy; 2023 Calculotron. Tous droits réservés.</p>
+        </footer>
+    </body>
+</html>
